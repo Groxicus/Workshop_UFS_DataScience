@@ -220,6 +220,7 @@ def dashboard_metrics():
     if not dataset_loaded():
 
         info_box("Upload a dataset to begin.")
+        st.file_uploader("Upload CSV or Excel file", type=["csv", "xlsx"])
 
         return
 
@@ -670,7 +671,6 @@ def render_page(navigation: str) -> None:
         home_page()
 
     elif navigation == "📂 Upload Dataset":
-        st.file_uploader("Upload CSV or Excel file", type=["csv", "xlsx"])
         upload_placeholder()
 
     elif navigation == "📊 Exploratory Data Analysis":
