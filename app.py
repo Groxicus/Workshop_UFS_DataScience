@@ -522,7 +522,7 @@ border:1px solid #DDDDDD;">
 def upload_placeholder():
 
     st.header("📂 Upload Dataset")
-
+st.file_uploader("Upload CSV or Excel file", type=["csv", "xlsx"])
     st.info(
         """
 The Upload page will be implemented in
