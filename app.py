@@ -385,7 +385,7 @@ def build_sidebar() -> str:
         else:
 
             st.warning("No dataset uploaded.")
-            st.file_uploader("Upload CSV or Excel file", type=["csv", "xlsx"])
+           
 
         st.markdown("---")
 
