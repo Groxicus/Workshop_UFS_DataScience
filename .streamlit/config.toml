@@ -1,0 +1,76 @@
+# ============================================================================
+# Streamlit Configuration
+# ML Analytics Studio
+# ============================================================================
+
+[theme]
+
+# Primary branding
+primaryColor = "#2563EB"
+
+# Background colors
+backgroundColor = "#0F172A"
+secondaryBackgroundColor = "#1E293B"
+
+# Text
+textColor = "#F8FAFC"
+
+# Font
+font = "sans serif"
+
+# ============================================================================
+# Server Configuration
+# ============================================================================
+
+[server]
+
+# Enables automatic reload during development
+runOnSave = true
+
+# Improve performance for larger uploads
+maxUploadSize = 1000
+
+# Enable CORS (required for Community Cloud)
+enableCORS = false
+
+# Enable XSRF protection
+enableXsrfProtection = true
+
+# ============================================================================
+# Browser Configuration
+# ============================================================================
+
+[browser]
+
+# Friendly page title
+gatherUsageStats = false
+
+# ============================================================================
+# Client Configuration
+# ============================================================================
+
+[client]
+
+# Display cleaner error messages
+showErrorDetails = true
+
+# ============================================================================
+# Logger Configuration
+# ============================================================================
+
+[logger]
+
+level = "info"
+messageFormat = "%(asctime)s %(levelname)s %(message)s"
+
+# ============================================================================
+# Global Configuration
+# ============================================================================
+
+[global]
+
+# Suppress warning messages
+disableWatchdogWarning = true
+
+# Development mode
+developmentMode = false
